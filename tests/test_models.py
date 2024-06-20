@@ -193,5 +193,4 @@ class TestAccount(unittest.TestCase):
         new.deserialize(data)
         a = date.today().strftime('%Y-%m-%d')
         b = new.date_joined.strftime('%Y-%m-%d')
-        self.assertEqual(a,b)
-        
+        self.assertEqual(a, b)
